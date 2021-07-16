@@ -2,15 +2,21 @@
   "tasks": [
     {
       "task": "I remember clearly",
-      "day": "July 15 9:43 PM ",
+      "day": "July 15 10:38 PM ",
       "reminder": false,
       "id": 1
     },
     {
       "task": "see me here",
-      "day": "July 15 9:43 PM ",
-      "reminder": true,
+      "day": "July 15 11:42 PM ",
+      "reminder": false,
       "id": 2
+    },
+    {
+      "task": "Take out the trash",
+      "day": "July 15 11:44 PM ",
+      "reminder": true,
+      "id": 3
     }
   ]
 }
