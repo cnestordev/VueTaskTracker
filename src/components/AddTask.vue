@@ -34,7 +34,7 @@ var getTime = () => {
   const minutes = today.getMinutes()
   return `${months[month]} ${dayte} ${time - 12}:${
     minutes < 10 ? '0' + minutes : minutes
-  } `
+  } ${today.getHours() > 12 ? 'PM' : 'AM'} `
 }
 
 export default {
@@ -56,7 +56,7 @@ export default {
       }
 
       const newTask = {
-        id: Math.floor(Math.random() * 100000),
+        // id: Math.floor(Math.random() * 100000),
         task: this.text,
         day: getTime(),
         reminder: this.reminder,
